@@ -15,7 +15,7 @@ Q = {(env.agent_pos[0],env.agent_pos[1]):{dire:{a:0 for a in range(3)}for dire i
 policy= {(env.agent_pos[0],env.agent_pos[1]):{dire:0 for dire in range (4)}}
 
 
-alpha = 0.9
+alpha = 0.1
 epsilon =0.95
 decay_rate = 1.06
 total_episodes = 500
